@@ -7,41 +7,76 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+    <!-- Blue banner with text only, moved left by 1 inch (16px) -->
+    <div style="background-color: #2196F3; color: white; border-radius: 30px; padding: 50px 0; text-align: center; font-size: 3em; font-weight: bold; margin-left: 16px;">
+        Be a Hero Save Lives
+    </div>
+    <!-- Photo credit below the banner for students -->
+    <div style="text-align: right; font-size: 0.7em; margin-right: 50px; margin-top: 5px;">
+        Photo by Dii Nyau from Pexels
+    </div>
 
     <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+    <!-- Container for Our Story and image side by side -->
+    <div style="display: flex; align-items: flex-start; margin-top: 40px;">
+        <!-- Our Story text on the left -->
+        <section class="story" style="flex: 1; padding-left: 40px;">
+            <h2>Our Story</h2>
+            <p>Partners build and produce solutions; we aim to train our community to make these changes happen. We are transparent and provide updates on the progress of projects. 
+                <!-- ...existing code... -->
+            </p> 
+        </section>
+        <!-- Image on the right, made even bigger for emphasis -->
+        <img 
+            src="https://images.pexels.com/photos/1446504/pexels-photo-1446504.jpeg?auto=compress&w=400" 
+            alt="Boy drinking water from faucet - Photo by Dii Nyau from Pexels" 
+            style="border-radius: 20px; width: 500px; max-width: 100%; margin-right: 40px; margin-top: 32px;">
+    </div>
 
     <!-- Real-World Impact Story Section -->
     <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
+        <!-- Section headline updated -->
+        <h2>Real Impact: Meet Sefu</h2>
+        <!-- Container for story text only -->
+        <div style="background-color: #2196F3: white; border-radius: 6px; padding: 1px 0; text-align: center; font-size: 1em; font-weight: bold; margin-left: 16px;">
+            <!-- New impact story text -->
             <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
+                “We lined up before sunrise for a few buckets. Today, every house has access. Our clinic is cleaner, and we welcome new babies with safe water.”
             </p>
         </div>
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+    <!-- Call-to-Action Section and Subscription Banner side by side -->
+    <div style="display: flex; align-items: center; margin-top: 40px;">
+        <!-- Call-to-Action Section: This encourages visitors to take action -->
+        <section class="call-to-action" style="text-align: left; flex: 1; padding-right: 20px;">
+            <h2>Make a Difference</h2>
+            <p>
+                Help bring clean water to families.
+                100% of your donations will fund clean water projects.<br>
+            </p>
+            <!-- Donate Now button -->
+            <a href="#" class="donate-button" style="margin-left: 40px;">Donate Now</a>
+        </section>
+        <!-- Blue subscription banner in the middle, longer for more space -->
+        <div style="background-color: #2196F3; color: white; border-radius: 20px; padding: 30px 40px; width: 480px; margin-left: 40px; text-align: center; display: flex; flex-direction: column; justify-content: center;">
+            <!-- Banner headline -->
+            <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 10px;">
+                Subscribe to our monthly program
+            </div>
+            <!-- Price and impact -->
+            <div style="font-size: 1.1em; margin-bottom: 10px;">
+                $30/mo &rarr; saves 6 people/year
+            </div>
+            <!-- Security and tax info -->
+            <div style="font-size: 0.9em; margin-bottom: 18px;">
+                Secure &bull; Tax-deductible &bull; Receipt by email
+            </div>
+            <!-- Join Now button -->
+            <a href="#" style="display: inline-block; background: white; color: black; border: 2px solid black; border-radius: 8px; padding: 10px 24px; font-weight: bold; text-decoration: none;">
+                Join Now
+            </a>
+        </div>
+    </div>
 </body>
 </html>
